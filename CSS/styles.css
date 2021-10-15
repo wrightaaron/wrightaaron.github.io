@@ -1,0 +1,190 @@
+/*
+	Name: Aaron Wright
+	Project: GitHub Page
+	Class: CIS-130
+*/
+html, body
+{
+	margin:0px;
+	padding:0px;
+}
+
+.clearfix:after
+{
+	display:table;
+	content:'';
+	clear:both;
+}
+
+
+
+body > header:first-of-type
+{
+	position: relative;
+}
+
+body > header > h1
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size:3em;
+}
+
+body > header > h1 > span.title
+{
+	font-size:0.8em;
+}
+
+
+body > header:first-of-type
+{
+	
+	background-color:purple;
+	color:white;
+	padding: 15px 0px;
+	text-align:center;
+}
+
+body > header:first-of-type h1,
+body > header:first-of-type h2, 
+body > header:first-of-type h3, 
+body > header:first-of-type h4, 
+body > header:first-of-type h5, 
+body > header:first-of-type h6
+{
+	margin:0px;
+	margin:auto;
+}
+
+body > header > img
+{
+	float:left;
+}
+
+body > footer:last-of-type
+{
+	background-color:purple;
+	color:white;
+	text-align:center;
+	padding: 15px 0px;
+}
+
+div.container
+{
+	width:65%;
+	margin: 0 auto;
+	padding:25px;
+}
+
+div.code
+{
+	display:block;
+	background-color:#c4c4c4;
+	padding:15px;
+	display:inline-block;
+	min-width:50%;
+	/* margin-top:15px;
+	margin-bottom:15px; */
+}
+
+.tab
+{
+	tab-size:4;
+}
+
+
+nav
+{
+	background-color: #6e1a6e;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul
+{
+	display:flex;
+	list-style:none;
+}
+
+nav ul li a 
+{
+  display: inline-block;
+  padding: 10px 15px;
+  color:white;
+  text-decoration:none;
+}
+
+nav ul li a:visited
+{
+	color:#ffe1e1;
+}
+
+
+dt
+{
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+dd
+{
+	padding-bottom:15px;
+}
+
+.tnr
+{
+	font-family:"Times New Roman", Times, serif;
+}
+
+.arial
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.font.example
+{
+	font-weight:bold;
+	font-size:1.25em;
+}
+
+@media only screen and (max-width: 1170px)
+{
+	body > header > img
+	{
+		display:none;
+	}
+	
+	body > header > h1
+	{
+		position:initial;
+		top:initial;
+		left:initial;
+		transform:initial;
+		display:block;
+		width:100%;
+		text-align:center;
+	}
+	
+	div.container
+	{
+		width:90%;
+		margin: 0 auto;
+		padding:25px;
+	}
+
+	div.code
+	{
+		display:block;
+		background-color:#c4c4c4;
+		padding:15px;
+		display:inline-block;
+		min-width:90%;
+		/* margin-top:15px;
+		margin-bottom:15px; */
+	}
+}

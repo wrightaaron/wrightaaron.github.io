@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Basic HTML Skeleton</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../CSS/styles.css"> <!-- The href value is the path to your stylesheet -->
+	</head>
+	<body>
+		<header class="clearfix">
+			<img src="../IMG/html-css-js.png" alt="HTML, CSS, and Javascript">
+			<h1>
+				HTML, CSS, Javascript<br>
+				<span class="title">Basic HTML Skeleton</span>
+			</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="../">Home</a></li>
+				<li><a href="../html-skeleton/">HTML Skeleton</a></li>
+				<li><a href="../semantics/">Semantics</a></li>
+				<li><a href="../fonts/">Fonts</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<section>
+				<header>
+					<h1>HTML Skeleton</h1>
+				</header>
+				<article>
+					<header>
+						<h2>Why?</h2>
+					</header>
+					<p>
+						Having a basic skeleton file or template can help with saving you time and keeping your HTML files more consistent.
+						When you maintain a certain amount of consistency with the way you create and structure your code, 
+						it can be a lot easier to figure out where something is happening and how to modify it without needing to search through thousands of lines of code. 
+						It is also helpful to other developers that may be working on something you created. 
+						If the other developer knows that you created these files, they should be able to find what they need once they realize the way you structure all of your code.
+						This is also true if you have to go back to work on some code that you wrote a long time ago. If you were consistent, it shouldn't be difficult to recall what was happening in that code.
+					</p>
+				</article>
+				<article>
+					<header>
+						<h2>Definition</h2>
+					</header>
+					<blockquote>
+						:something reduced to its minimum form or essential parts<br>
+						<cite><a href="https://www.merriam-webster.com/dictionary/skeleton" target="_blank">Merriam-Webster</a></cite>
+					</blockquote>
+				</article>
+				<article>
+					<header>
+						<h2>Example</h2>
+					</header>
+					<p>
+						Below you can see an example of a very basic HTML file. This code has the very basic structure that you would need to start creating an HTML webpage.
+						Once you start creating full websites, you can add anything into this skeleton file that you use consistently. 
+						If you have some javascript files located on your server that you are using regularly, you can add those script files to your skeleton. The same can be said for your CSS files that you use regularly.
+						If you keep a similar structure in your pages, you can add any of those elements in that you regularly use and then just update the content in those elements to fit the page you're creating.
+					</p>
+					<div class="code">
+						<pre class="tab"><code>&lt;!DOCTYPE html&gt;</code> </pre>
+						<pre class="tab"><code>&lt;html&gt;</code> </pre>
+						<pre class="tab"><code>	&lt;head&gt;</code> </pre>
+						<pre class="tab"><code>		&lt;title&gt;Basic HTML Skeleton&lt;/title&gt;</code> </pre>
+						<pre class="tab"><code>		&lt;meta charset="utf-8"&gt;</code> </pre>
+						<pre class="tab"><code>		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code> </pre>
+						<pre class="tab"><code>		&lt;link rel="stylesheet" href="styles.css"&gt; &lt;!-- The href value is the path to your stylesheet --&gt;</code> </pre>
+						<pre class="tab"><code>	&lt;/head&gt;</code> </pre>
+						<pre class="tab"><code>	&lt;body&gt;</code> </pre>
+						<pre class="tab"><code>		&lt;!-- Everything that is visible in the browser window should go here inside the body tag --&gt;</code> </pre>
+								
+						<pre class="tab"><code>	&lt;/body&gt;</code> </pre>
+						<pre class="tab"><code>&lt;/html&gt;</code> </pre>
+					</div>
+					<p>
+						Feel free to download this code and a skeleton CSS file by using the following link: <a href="html-skeleton.zip">HTML and CSS Skeleton files - .ZIP Download</a>
+					</p>
+				</article>
+				<article>
+					<header>
+						<h2>About the Example</h2>
+					</header>
+					<dl>
+						<dt>&lt;!DOCTYPE html&gt;</dt>
+						<dd>This is the document type declaration. This lets the browser know what type of markup to expect</dd>
+						<dt>&lt;html&gt;</dt>
+						<dd>This is the html tag. It tells the browser that all of the content inside of it, should be written using HTML.</dd>
+						<dt>&lt;head&gt;</dt>
+						<dd>The head tag is the part of the document where we put the title of the page, links to our styles and scripts, and other meta data that the browser can use to properly render the page content.</dd>
+						<dt>&lt;title&gt;</dt>
+						<dd>The title tag is used to tell the browser what the title of our page is. This is only displayed in the browser tab for the page.</dd>
+						<dt>&lt;meta charset="utf-8"&gt;</dt>
+						<dd>This meta tag is setting the character set of the document. This is the type of encoding that we need the browser to use to display the page content correctly. In this case, that encoding is UTF-8.</dd>
+						<dt>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</dt>
+						<dd>
+							This meta tag is setting how we want the viewport to be calculated as well as setting the initial scale(zoomed in, out, or not zoomed at all) of the page. 
+							We are setting the viewport width to be the width of the device the page is being displayed on. This is very helpful when we start working with styles for different sized screens and working with a mobile first approach.
+						</dd>
+						<dt>&lt;link rel="stylesheet" href="styles.css"&gt;</dt>
+						<dd>This is a link element being used to link to a stylesheet. The rel attribute is being used to tell the browser that this link is to a stylesheet. The href value is the path to our stylesheet.</dd>
+						<dt>&lt;body&gt;</dt>
+						<dd>This is the body tag. The body tag surrounds everything that needs to be a part of the body of the page. If something needs to show on the page, it should go in between the opening and closing body tags.</dd>
+						<dt>&lt;!--  --&gt;</dt>
+						<dd>
+							These are opening and closing comment tags. When including these in your HTML, anything after the &lt;!-- and before the --&gt; will not display on your page. These comments will display in your code. 
+							This is a good way to leave yourself or other developers notes in the code about what is going on or why something was done a certain way.
+						</dd>
+						<dt>&lt;/body&gt; and &lt;/html&gt;</dt>
+						<dd>
+							These are the closing body and html tags. Many of the tags that you will use are container tags. This means that they will need an opening and closing tag with some content in between.
+							A closing tag for an element is just the less than symbol &lt; followed by a forward slash / then the tag name for the element being closed and ends with the greater than symbol &gt;.
+							If I were closing the body tag, I would use &lt;/body&gt;. If I were closing an article tag, I would use &lt;/article&gt;.
+						</dd>
+						<dt>Self Closing Tags</dt>
+						<dd>
+							Some of our tags are self closing tags. This means that instead of having an opening and closing tag with content in between, they have all of the information they need enclosed in a single tag.
+							The meta tags in the head element of the above example are self-closing tags. They have all of the information they need inside a single tag. The img tag is another common self-closing tag.
+						</dd>
+					</dl>
+					<p>
+						The code and files for this skeleton are free to use. They are intended as a starting point so that you can create the pages that you need to create while saving you a little bit of time.
+						
+					</p>
+				</article>
+			</section>
+		</div>
+		<footer>
+			<p>
+				&copy; Aaron Wright &bull; 2021
+			</p>
+		</footer>
+	</body>
+</html>

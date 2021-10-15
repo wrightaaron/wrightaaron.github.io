@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Images</title>
+		<link rel="stylesheet" href="CSS/styles.css" />
+	</head>
+	<body>
+		<header class="clearfix">
+			<img src="IMG/html-css-js.png" alt="HTML, CSS, and Javascript">
+			<h1>
+				HTML, CSS, Javascript<br>
+				<span class="title">Images</span>
+			</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="html-skeleton/">HTML Skeleton</a></li>
+				<li><a href="semantics/">Semantics</a></li>
+				<li><a href="fonts/">Fonts</a></li>
+				<li><a href="images/">Images</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<section>
+				<header>
+					<h1>Adding Images to Our HTML</h1>
+				</header>
+				<article>
+					<header>
+						<h2>The img Tag</h2>
+					</header>
+					<p>
+						The HTML tag used for adding images is a self-closing tag and has a few attributes that must be set. The first attribute is the src. The src attribute, pronounced source, is used to tell the browser where to find the image.
+						The next attribute that is required for the element to be considered valid is the alt or alternate text attribute. The alt attribute is a short block of text telling the user what the image is.
+						This is helpful information for someone using a screen reader or for the browser to still provide the information if the image doesn't display for whatever reason.
+						A good resource for finding what properties are available to a given element is
+						the <a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank">W3Schools HTML Tag Reference - &lt;img&gt;.</a>
+					</p>
+				</article>
+				<article>
+					<header>
+						<h2>Example</h2>
+					</header>
+					<div class="col-2">
+						<p>In the example below, we see an image that is properly displaying on the page.</p>
+						<div class="code">
+							<pre class="tab"><code>&lt;img src="../IMG/"&gt;</code> </pre>
+							<pre class="tab"><code>&lt;html&gt;</code> </pre>
+							<pre class="tab"><code>	&lt;head&gt;</code> </pre>
+							<pre class="tab"><code>		&lt;title&gt;Basic HTML Skeleton&lt;/title&gt;</code> </pre>
+							<pre class="tab"><code>		&lt;meta charset="utf-8"&gt;</code> </pre>
+							<pre class="tab"><code>		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code> </pre>
+							<pre class="tab"><code>		&lt;link rel="stylesheet" href="styles.css"&gt; &lt;!-- The href value is the path to your stylesheet --&gt;</code> </pre>
+							<pre class="tab"><code>	&lt;/head&gt;</code> </pre>
+							<pre class="tab"><code>	&lt;body&gt;</code> </pre>
+							<pre class="tab"><code>		&lt;!-- Everything that is visible in the browser window should go here inside the body tag --&gt;</code> </pre>
+									
+							<pre class="tab"><code>	&lt;/body&gt;</code> </pre>
+							<pre class="tab"><code>&lt;/html&gt;</code> </pre>
+						</div>
+					</div>
+				</article>
+				<article>
+					<header>
+						<h2>Javascript</h2>
+					</header>
+					<p>
+						Javascript is a client-side web programming language. The code that is written executes on the device that is viewing the web page. Javascript is an Object <strong>Based</strong> language and not Object Oriented.
+						Similarly to using an external stylesheet, javascript is typically written in an external file. This allows functions and code to be reused throughout many pages on a website. 
+						It also helps separate the presentation of the pages from the logic and event handling that is being used to make our pages more dynamic.
+						If something happens or needs to happen on our pages, we know to go look at the javascript and add the functionality there.
+					</p>
+				</article>
+				<article>
+					<header>
+						<h2>Additional Information</h2>
+					</header>
+					<p>The following pages contain more comprehensive information about semantic elements and their uses in writing HTML to create our web pages:</p>
+					<ul>
+						<li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">HTML Semantic Elements - W3Schools</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" target="_blank">Semantics - MDN Web Docs</a></li>
+						<li><a href="https://www.freecodecamp.org/news/semantic-html5-elements/" target="_blank">Semantic HTML5 Elements Explained - freeCodeCamp</a></li>
+					</ul>
+				</article>
+			</section>
+		</div>
+		<footer>
+			<p>
+				&copy; Aaron Wright &bull; 2021
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Fonts</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../CSS/styles.css"> <!-- The href value is the path to your stylesheet -->
+	</head>
+	<body>
+		<header class="clearfix">
+			<img src="../IMG/html-css-js.png" alt="HTML, CSS, and Javascript">
+			<h1>
+				HTML, CSS, Javascript<br>
+				<span class="title">Fonts</span>
+			</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="../">Home</a></li>
+				<li><a href="../html-skeleton/">HTML Skeleton</a></li>
+				<li><a href="../semantics/">Semantics</a></li>
+				<li><a href="../fonts/">Fonts</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<section>
+				<header>
+					<h1>Using fonts in our web pages</h1>
+				</header>
+				<article>
+					<header>
+						<h2>Web-safe Fonts</h2>
+					</header>
+					<p>
+						There are a number of fonts available that are considered web-safe. This is because they are standard fonts that most browsers should have available to them.
+						However, just because a font should be web-safe, doesn't mean you should only declare one and leave it at that. If you declare one font family and no other options, 
+						visitors to your page may not be getting the experience you want them to have. That is why we have the ability to declare multiple similaer font families in our CSS.
+						If the first font is not available, maybe the next one will be. If all else fails, we can tell the browser to use a generic serif or sans-serif font.
+					</p>
+				</article>
+				<article>
+					<header>
+						<h2>Definition</h2>
+					</header>
+					<blockquote>
+						A font is a collection of characters with a similar design.<br>
+						<cite><a href="https://techterms.com/definition/font" target="_blank">TechTerms.com</a></cite>
+					</blockquote>
+				</article>
+				<article>
+					<header>
+						<h2>Serif vs Sans-serif</h2>
+					</header>
+					<p>
+						You may or may not have heard the terms serif and sans-serif before. A serif is a small extension at the edge of a character. You may have seen this on letters like <span class="font example tnr">T</span> or <span class="font example tnr">M</span>.
+						"Sans" means without so sans-serif means without those decorative extensions on the characters like <span class="font example arial">T</span> or <span class="font example arial">M</span>. You surely noticed that I used the same
+						characters in both of those examples. They are however using different fonts do demonstrate how those characters look with and without the serifs.
+					</p>
+				</article>
+				<article>
+					<header>
+						<h2>In the CSS</h2>
+					</header>
+					<p>
+						Below you can see some examples of setting a font-family in your CSS file. In the examples below, we are using three options for each font-family value. The browser will try the first one. If the first one is available, that's great.
+						If it is not available, the browser will then try the next one. This goes on until the browser finds one it can render or goes to the default font for the browser. That is why it is good to end our font-family declarations with
+						a generic font style to be used such as serif or sans-serif like the examples below. This tells the browser that if it can't find any of the font's listed, use a generic one that is the style we gave it. That way you are at least getting the serif, sans-serif, cursive, etc. that you wanted.
+					</p>
+					
+					<div class="code">
+						<pre class="tab"><code>font-family:"Times New Roman", Times, serif;</code> </pre>
+						<pre class="tab"><code>font-family:Arial, Helvetica, sans-serif;</code> </pre>
+					</div>
+					<p>
+						We can use as many fonts as needed in the value for the font-family attribute. They just need to be separated by commas. Another thing I would like to point out is the use of the quotation marks for "Times New Roman"
+						Because the name of that font is multiple words with spaces, it must be inside quotation marks. As long as the font is one word, it does not need the quotes but they are required when using a multi-word font name.
+					</p>
+				</article>
+				<article>
+					<header>
+						<h2>Google Fonts</h2>
+					</header>
+					<p>
+						Below is a video walking through how we can use Google Fonts and add them to our pages. You can see the end result on the <a href="fonts.html">Font Example page</a> or you can download the completed files from that video here: <a href="fonts.zip">Font Example Files - ZIP Download</a>
+					</p>
+					<p>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/4I3Pdb-1_Uw?start=428" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</p>
+				</article>
+			</section>
+		</div>
+		<footer>
+			<p>
+				&copy; Aaron Wright &bull; 2021
+			</p>
+		</footer>
+	</body>
+</html>

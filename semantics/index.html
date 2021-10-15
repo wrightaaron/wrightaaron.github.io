@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Semantic Tags</title>
+		<link rel="stylesheet" href="../CSS/styles.css" />
+	</head>
+	<body>
+		<header class="clearfix">
+			<img src="../IMG/html-css-js.png" alt="HTML, CSS, and Javascript">
+			<h1>
+				HTML, CSS, Javascript<br>
+				<span class="title">Semantic HTML Elements</span>
+			</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="../">Home</a></li>
+				<li><a href="../html-skeleton/">HTML Skeleton</a></li>
+				<li><a href="../semantics/">Semantics</a></li>
+				<li><a href="../fonts/">Fonts</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<section>
+				<header>
+					<h1>Semantic Tags</h1>
+					<p>
+						What's in a name?
+					</p>
+				</header>
+				<article>
+					<header>
+						<h2>Why?</h2>
+					</header>
+					<p>
+						When you want to make sure the your intentions are understood, it is better to state them explicitly instead of implicitly. 
+						If you aren't clear with your intentions, it leaves what you say and do open to interpretation and can lead to unexpected implications.
+						While it is better to ask what is meant by something when we are unsure, that question doesn't always get asked. Sometime, it can't be asked because the person that knows the answer is not available.
+						When we write our code, we should do so with the expectation that someone else may be working on it at some point in the future and different types of software will be rendering that code.
+						That's where using semantic HTML tags comes in. 
+						Using meaningful tag names can make a huge difference in the way our code is understood. They will help us be more explicit with our intentions and leave less up to interpretation.
+					</p>
+				</article>
+				<article>
+					<header>
+						<h2>Definition</h2>
+					</header>
+					<blockquote>
+						:of or relating to meaning in language<br>
+						<cite><a href="https://www.merriam-webster.com/dictionary/semantic" target="_blank">Merriam-Webster</a></cite>
+					</blockquote>
+				</article>
+				<article>
+					<header>
+						<h2>Example</h2>
+					</header>
+					<p>
+						We use semantic elements when writing our HTML because of the meaning it gives those elements. When adding a header to a block of content in our html, using 
+					</p>
+					<div class="code">
+						<pre class="tab"><code>&lt;section&gt;</code> </pre>
+						<pre class="tab"><code>	&lt;article&gt;</code> </pre>
+						<pre class="tab"><code>		&lt;header&gt;</code> </pre>
+						<pre class="tab"><code>			&lt;h1&gt;</code> </pre>
+						<pre class="tab"><code>				This is my heading</code> </pre>
+						<pre class="tab"><code>			&lt;/h1&gt;</code> </pre>
+						<pre class="tab"><code>		&lt;/header&gt;</code> </pre>
+						<pre class="tab"><code>	&lt;/ article&gt;</code> </pre>
+						<pre class="tab"><code>&lt;/ section&gt;</code> </pre>
+					</div>
+					<p>
+						gives us more meaning than using a div with a class like 
+					</p>
+					<div class="code">
+						<pre class="tab"><code>&lt;div class="section"&gt;</code> </pre>
+						<pre class="tab"><code>	&lt;div class="article"&gt;</code> </pre>
+						<pre class="tab"><code>		&lt;div class="header"&gt;</code> </pre>
+						<pre class="tab"><code>			&lt;h1&gt;</code> </pre>
+						<pre class="tab"><code>				This is my heading</code> </pre>
+						<pre class="tab"><code>			&lt;/h1&gt;</code> </pre>
+						<pre class="tab"><code>		&lt;/div&gt;</code> </pre>
+						<pre class="tab"><code>	&lt;/ div&gt;</code> </pre>
+						<pre class="tab"><code>&lt;/ div&gt;</code> </pre>
+					</div>
+					<p>
+						This allows the browser, screen readers, and other developers more easily understand what the intended structure of our page is. 
+					</p>
+					<p>
+						HTML 5 introduced several new semantic elements like header, footer, article, and many others.
+					</p>
+				</article>
+				<article>
+					<header>
+						<h2>Additional Information</h2>
+					</header>
+					<p>The following pages contain more comprehensive information about semantic elements and their uses in writing HTML to create our web pages:</p>
+					<ul>
+						<li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">HTML Semantic Elements - W3Schools</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" target="_blank">Semantics - MDN Web Docs</a></li>
+						<li><a href="https://www.freecodecamp.org/news/semantic-html5-elements/" target="_blank">Semantic HTML5 Elements Explained - freeCodeCamp</a></li>
+					</ul>
+				</article>
+			</section>
+		</div>
+		<footer>
+			<p>
+				&copy; Aaron Wright &bull; 2021
+			</p>
+		</footer>
+	</body>
+</html>
