@@ -152,3 +152,50 @@ dd
 	font-size:1.25em;
 }
 
+
+
+@media only screen and (max-width: 1170px)
+{
+	/* selector
+	{
+		property:value;
+	} */
+	
+	body
+	{
+		background-color:green;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
