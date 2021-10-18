@@ -156,6 +156,7 @@ dd
 
 @media only screen and (max-width: 1170px)
 {
+	
 	body > header > img
 	{
 		display:none;
@@ -166,7 +167,7 @@ dd
 		position:initial;
 		top:initial;
 		left:initial;
-		transform:initial;
+		transform: initial;
 		display:block;
 		width:100%;
 		text-align:center;
@@ -189,4 +190,5 @@ dd
 		/* margin-top:15px;
 		margin-bottom:15px; */
 	}
+	
 }
