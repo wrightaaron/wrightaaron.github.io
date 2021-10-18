@@ -1,0 +1,4 @@
+body > header:first-of-type
+{
+	background-color:red;
+}

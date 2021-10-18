@@ -1,0 +1,48 @@
+body > header > img
+{
+	display:none;
+}
+
+body > header > h1
+{
+	position:initial;
+	top:initial;
+	left:initial;
+	transform: initial;
+	display:block;
+	width:100%;
+	text-align:center;
+}
+
+div.container
+{
+	width:90%;
+	margin: 0 auto;
+	padding:5%;
+}
+
+div.code
+{
+	display:block;
+	background-color:#c4c4c4;
+	padding:15px;
+	display:inline-block;
+	min-width:90%;
+	/* margin-top:15px;
+	margin-bottom:15px; */
+}
+
+img
+{
+	display:none;
+}
+
+nav 
+{
+	display:none;
+}
+
+body < header < h1
+{
+	color:black;
+}
